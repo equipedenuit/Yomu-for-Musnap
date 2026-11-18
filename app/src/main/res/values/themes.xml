@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Noir et blanc, sans animation : pensé pour l'e-ink -->
+    <style name="Theme.Yomu" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#000000</item>
+        <item name="android:colorAccent">#000000</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Yomu.Panel" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#000000</item>
+        <item name="android:colorAccent">#000000</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
